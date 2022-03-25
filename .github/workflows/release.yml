@@ -15,7 +15,7 @@ jobs:
           root_file: |
             latex/resume-cn.tex
           extra_fonts:
-            latex/*.otf
+            latex/font/*.otf
 
       - name: Resume Release
         uses: softprops/action-gh-release@v1
