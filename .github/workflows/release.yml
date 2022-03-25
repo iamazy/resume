@@ -31,6 +31,6 @@ jobs:
 #           files: |
 #             resume-cn.pdf
       - name: Upload pdf
-      - uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v2
         with:
           path: resume-cn.pdf
