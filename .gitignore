@@ -1,0 +1,7 @@
+
+.DS_Store
+dist-newstyle
+*.out
+*.log
+*.synctex.gz
+*.aux
