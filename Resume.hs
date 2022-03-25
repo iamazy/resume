@@ -22,7 +22,7 @@ education = section "教育经历" "Education"
 
 zky :: Resume
 zky = paragraph
-  [ datedSection (date "2018" "02" ~~ date "2018" "07") $ paragraph
+  [ datedSection (date "2018" "06" ~~ date "2020" "02") $ paragraph
     [ cn "\\textbf{中国科学院信息工程研究所}"
     ]
   , paragraph
