@@ -10,8 +10,6 @@ import GHC.IO.Encoding
 main :: IO ()
 main = getArgs >>= \case
   ["cn"]   -> f Chinese
-  ["en"]   -> f English
-  ["elab"] -> f Elaborated
   _        -> putStrLn $ unlines
     [ "Usage: <program> MODE"
     , "MODE can be cn, en or elab"
